@@ -1,0 +1,129 @@
+/*=== RESET ==========*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--dark-10);
+}
+
+/*=== VARIABLES ==========*/
+:root {
+  /* COLORS */
+  --brand-color: #e07b67;
+
+  --dark-10: #121214;
+  --dark-20: #17171A;
+  --dark-30: #202024;
+  --dark-40: #252529;
+
+  --gray: #AFABB6;
+  --white: #FFFFFF;
+
+  /* FONTS */
+  --title-font: "Space Grotesk", sans-serif;
+  --text-font: "Inter", sans-serif;
+}
+
+/*=== HEADER ==========*/
+header {
+  background-color: var(--dark-20);
+  width: 100%;
+  overflow: hidden;
+}
+
+header h1 {
+  font-family: var(--title-font);
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  color: var(--white);
+
+  margin-top: 3rem;
+}
+
+header h1 span {
+  color: var(--brand-color);
+}
+
+header .search-blog {
+  display: flex;
+  gap: 12px;
+
+  background-color: var(--dark-30);
+  border: 2px solid var(--dark-40);
+  border-radius: 8px;
+
+  padding: 1rem 1.5rem;
+  margin: 2rem 1.5rem 3rem 1.5rem;
+}
+
+header .search-blog img {
+  width: 14.64px;
+  cursor: pointer;
+}
+
+header .search-blog input {
+  width: 100%;
+  font-family: var(--text-font);
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: var(--gray);
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+header .search-blog input::-webkit-input-placeholder {
+  color: var(--gray);
+}
+
+/*=== CARD ==========*/
+.card {
+  background-color: var(--dark-20);
+  border: solid 2px var(--dark-40);
+  border-radius: 8px;
+
+  padding: 2rem 1.5rem;
+  margin: 2.6rem 1.5rem;
+}
+
+.card .date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 1.25rem;
+}
+
+.card .date span {
+  font-family: var(--text-font);
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 14.56px;
+  color: var(--brand-color);
+}
+
+.card .date img {
+  width: 17.5px;
+}
+
+.card h2 {
+  font-family: var(--title-font);
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 25.52px;
+  color: var(--white);
+
+  margin-bottom: 1rem;
+}
+
+.card p {
+  font-family: var(--text-font);
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 22.4px;
+  color: var(--gray);
+}
