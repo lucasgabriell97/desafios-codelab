@@ -32,6 +32,8 @@ header {
   background-color: var(--dark-20);
   width: 100%;
   overflow: hidden;
+
+  margin-bottom: 2.5rem;
 }
 
 header h1 {
@@ -87,7 +89,7 @@ header .search-blog input::-webkit-input-placeholder {
   border-radius: 8px;
 
   padding: 2rem 1.5rem;
-  margin: 2.6rem 1.5rem;
+  margin: 0 1.5rem 2.5rem 1.5rem;
 }
 
 .card .date {
@@ -126,4 +128,52 @@ header .search-blog input::-webkit-input-placeholder {
   font-size: 0.875rem;
   line-height: 22.4px;
   color: var(--gray);
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    margin-bottom: 4rem;
+  }
+
+  header h1 {
+    font-size: 2.5rem; 
+    margin-top: 4rem;
+  }
+
+  header .search-blog {
+    display: flex;
+    gap: 15px;
+    margin: 3rem 2rem 4rem 2rem;
+  }
+
+  header .search-blog img {
+    width: 21px;
+  }
+  
+  header .search-blog input {
+    font-size: 1.25rem;
+  }
+
+  .card {
+    padding: 2.5rem;
+    margin: 0 2rem 2.5rem 2rem;
+  }
+  
+  .card .date {
+    margin-bottom: 1.5rem;
+  }
+  
+  .card .date span {   
+    font-size: 0.875rem;
+    line-height: 16.94px;
+  }
+  
+  .card .date img {
+    width: 21px;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    line-height: 25.6px;
+  }
 }
