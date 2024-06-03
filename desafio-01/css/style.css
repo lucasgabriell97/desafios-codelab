@@ -150,6 +150,23 @@ header .search-blog input::-webkit-input-placeholder {
   color: var(--gray);
 }
 
+/*=== Footer ==========*/
+footer {
+  padding: 1rem;
+}
+
+footer p {
+  text-align: center;
+  font-family: var(--title-font);
+  font-size: 0.75rem;
+  color: var(--white);
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--brand-color);
+}
+
 @media screen and (min-width: 768px) {
   header {
     margin-bottom: 4rem;
@@ -196,6 +213,10 @@ header .search-blog input::-webkit-input-placeholder {
     font-size: 1rem;
     line-height: 25.6px;
   }
+
+  footer p {
+    font-size: 0.875rem;
+  }
 }
 
 @media screen and (min-width: 1216px) {
@@ -241,5 +262,9 @@ header .search-blog input::-webkit-input-placeholder {
   .card p {
     font-size: 1.25rem;
     line-height: 32px;
+  }
+
+  footer p {
+    font-size: 1rem;
   }
 }
