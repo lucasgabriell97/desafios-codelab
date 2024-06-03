@@ -56,10 +56,15 @@ header .search-blog {
 
   background-color: var(--dark-30);
   border: 2px solid var(--dark-40);
+  transition: border 0.2s ease;
   border-radius: 8px;
 
   padding: 1rem 1.5rem;
   margin: 2rem 1.5rem 3rem 1.5rem;
+}
+
+header .search-blog:focus-within {
+  border: 2px solid var(--brand-color);
 }
 
 header .search-blog img {
@@ -110,6 +115,20 @@ header .search-blog input::-webkit-input-placeholder {
 
 .card .date img {
   width: 17.5px;
+}
+
+.card .date .icon-search {
+  width: 17.5px;
+  fill: #17171A;
+  stroke: #E07B67;
+  stroke-width: 7;
+  transition: fill 0.3s;
+  cursor: pointer;
+}
+
+.icon-search.filled,
+.icon-search:hover {
+  fill: #E07B67;
 }
 
 .card h2 {
@@ -168,12 +187,50 @@ header .search-blog input::-webkit-input-placeholder {
     line-height: 16.94px;
   }
   
-  .card .date img {
+  .card .date .icon-search {
     width: 21px;
   }
   
   .card p {
     font-size: 1rem;
     line-height: 25.6px;
+  }
+}
+
+@media screen and (min-width: 1216px) {
+  .container {
+    max-width: 1216px;
+    margin: 0 auto;
+  }
+
+  header { 
+    margin-bottom: 5.5rem;
+  }
+  
+  header .search-blog img {
+    width: 28px;
+  }
+
+  .card .date {
+    margin-bottom: 1.25rem;
+  }
+  
+  .card .date span {   
+    font-size: 1rem;
+    line-height: 19.36px;
+  }
+  
+  .card .date .icon-search {
+    width: 32px;
+  }
+  
+  .card h2 {
+    font-size: 1.5rem;
+    line-height: 30.62px;
+  }
+
+  .card p {
+    font-size: 1.18rem;
+    line-height: 32px;
   }
 }
