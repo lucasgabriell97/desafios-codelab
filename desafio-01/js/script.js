@@ -9,7 +9,6 @@ iconHeart.forEach(icon => {
 
 // Scroll Reveal
 ScrollReveal().reveal('.card', { delay: 200, reset: true });
-ScrollReveal().reveal('.date', { delay: 300, reset: true });
-ScrollReveal().reveal('h2', { delay: 400, reset: true });
-ScrollReveal().reveal('p', { delay: 500, reset: true });
-ScrollReveal().reveal('footer', { delay: 600, reset: true });
+ScrollReveal().reveal('.card .date', { delay: 300, reset: true });
+ScrollReveal().reveal('.card h2', { delay: 400, reset: true });
+ScrollReveal().reveal('.card p', { delay: 500, reset: true });

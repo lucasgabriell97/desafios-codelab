@@ -31,9 +31,8 @@ body {
 header {
   background-color: var(--dark-20);
   width: 100%;
-  overflow: hidden;
 
-  margin-bottom: 2.5rem;
+  padding: 3rem 1.5rem;
 }
 
 header h1 {
@@ -43,7 +42,7 @@ header h1 {
   text-align: center;
   color: var(--white);
 
-  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 
 header h1 span {
@@ -60,7 +59,6 @@ header .search-blog {
   border-radius: 8px;
 
   padding: 1rem 1.5rem;
-  margin: 2rem 1.5rem 3rem 1.5rem;
 }
 
 header .search-blog:focus-within {
@@ -88,6 +86,10 @@ header .search-blog input::-webkit-input-placeholder {
 }
 
 /*=== CARD ==========*/
+main {
+  padding: 2.5rem 1.5rem;
+}
+
 .card {
   background-color: var(--dark-20);
   border: solid 2px var(--dark-40);
@@ -95,7 +97,11 @@ header .search-blog input::-webkit-input-placeholder {
   border-radius: 8px;
 
   padding: 2rem 1.5rem;
-  margin: 0 1.5rem 2.5rem 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.card:last-child {
+  margin-bottom: 0;
 }
 
 .card:hover {
@@ -152,7 +158,7 @@ header .search-blog input::-webkit-input-placeholder {
 
 /*=== Footer ==========*/
 footer {
-  padding: 1rem;
+  padding: 2rem 1.5rem;
 }
 
 footer p {
@@ -169,18 +175,17 @@ footer a {
 
 @media screen and (min-width: 768px) {
   header {
-    margin-bottom: 4rem;
+    padding: 4rem 2rem;
   }
 
   header h1 {
-    font-size: 2.5rem; 
-    margin-top: 4rem;
+    font-size: 2.5rem;
+    
+    margin-bottom: 3rem;
   }
 
   header .search-blog {
-    display: flex;
     gap: 15px;
-    margin: 3rem 2rem 4rem 2rem;
   }
 
   header .search-blog img {
@@ -191,9 +196,13 @@ footer a {
     font-size: 1.25rem;
   }
 
+  main {
+    padding: 4rem 2rem;
+  }
+
   .card {
     padding: 2.5rem;
-    margin: 0 2rem 2.5rem 2rem;
+    margin-bottom: 2.5rem;
   }
   
   .card .date {
@@ -214,31 +223,36 @@ footer a {
     line-height: 25.6px;
   }
 
+  footer {
+    padding: 2rem 2rem;
+  }
+
   footer p {
     font-size: 0.875rem;
   }
 }
 
 @media screen and (min-width: 1216px) {
-  .container {
+  .header-container {
     max-width: 1216px;
     margin: 0 auto;
   }
 
   header { 
-    margin-bottom: 5.5rem;
+    padding: 4rem 2rem;
   }
   
   header .search-blog img {
     width: 28px;
   }
 
-  header .search-blog {
-    margin: 3rem 0 4rem 0;
+  .main-container {
+    max-width: calc(1216px + 64px);
+    margin: 0 auto;
   }
 
-  .card {
-    margin: 0 0 2.5rem 0;
+  main {
+    padding: 5.5rem 2rem;
   }
 
   .card .date {
