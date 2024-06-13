@@ -36,7 +36,7 @@ body {
 
 /*=== HEADER ==========*/
 header {
-  background-image: url("../images/image-michael-jordan.png");
+  background-image: url("../images/image-michael-jordan.webp");
   background-position: center top;
   background-size: cover;
   width: 100%;
@@ -46,7 +46,7 @@ header {
   flex-direction: column;
   justify-content: center;
 
-  padding-left: 1.5rem;
+  padding-inline: 1.5rem;
 }
 
 header img {
@@ -104,13 +104,15 @@ section > p {
 .sneakers {
   display: grid;
   grid-template-columns: 1fr;
-  justify-items: center;
   gap: 2.5rem;
+}
+
+.card {
+  width: 100%;
 }
 
 .card .sneaker-image {
   background-color: var(--gray);
-  width: 19.9375rem;
   height: 12.5rem;
 
   display: flex;
@@ -122,8 +124,6 @@ section > p {
 }
 
 .card .sneaker-info {
-  max-width: 19.9375rem;
-
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
@@ -152,12 +152,32 @@ section > p {
   text-align: start;
 }
 
+/*=== Footer ==========*/
+footer {
+  padding: 2rem 1.5rem;
+}
+
+footer p {
+  text-align: center;
+  font-family: var(--title-font);
+  font-size: 0.75rem;
+  color: var(--dark);
+}
+
+footer a {
+  color: var(--brand-color);
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
 @media screen and (min-width: 768px) {
   .notice p {
     font-size: 1rem;
   }
   header {
-    padding-left: 2rem;
+    padding-inline: 2rem;
   }
   .header-info p {
     font-size: 1.125rem;
@@ -179,31 +199,72 @@ section > p {
     margin: 0 auto 2.5rem auto;
   }
   .sneakers {
-    display: grid;
-    grid-template-columns: repeat(2, 21rem);
-    justify-items: center;
-    place-content: center;
+    grid-template-columns: repeat(2, 1fr);
     gap: 2.5rem 2rem;
-  }
-  .card .sneaker-image {
-    width: 21rem;
-  }
-  .card .sneaker-info {
-    max-width: 21rem;
   }
   .card .sneaker-info h3 {
     font-size: 1.125rem;
     line-height: 23.4px;
-
+  }
+  footer {
+    padding: 2rem 2rem;
+  }
+  footer p {
+    font-size: 0.875rem;
   }
 }
 
-/* @media screen and (min-width: 1216px) {
-  .sneakers {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-    place-content: center;
-    gap: 2.5rem;
+@media screen and (min-width: 1216px) {
+  .header-container {
+    width: 100%;
+    max-width: 76rem;
+    margin: 0 auto;
   }
-} */
+  .notice {  
+    padding: 1.1875rem 0;
+  }
+  .notice p {
+    font-size: 1.5rem;
+  }
+  header {
+    height: 25rem;
+  }
+  .header-info {
+    gap: 1.25rem;
+  }
+  .header-info h1 {
+    font-size: 2rem;
+  }
+  .header-info p {
+    font-size: 1.5rem;
+    line-height: 33.6px;
+  
+    max-width: 33rem;
+  }
+  .section-container {
+    max-width: calc(76rem + 4rem);
+    margin: 0 auto;
+  }
+  section {
+    padding: 5rem 2rem;
+  }
+  section h2 {
+    font-size: 2rem;
+ 
+    margin-bottom: 1.5rem;
+  }
+  section > p {
+    font-size: 1.5rem;
+    line-height: 33.6px;
+  
+    max-width: 37.0625rem;
+    margin: 0 auto 4.5rem auto;
+  }
+  .sneakers {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem 2rem;
+  }
+  footer p {
+    font-size: 1rem;
+  }
+}
