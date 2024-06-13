@@ -37,11 +37,16 @@ body {
 /*=== HEADER ==========*/
 header {
   background-image: url("../images/image-michael-jordan.png");
-  background-position: center;
+  background-position: center top;
   background-size: cover;
   width: 100%;
+  height: 21.875rem;
 
-  padding: 5.6875rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding-left: 1.5rem;
 }
 
 header img {
@@ -50,15 +55,19 @@ header img {
   margin-bottom: 2.5rem;
 }
 
-header h1 {
+.header-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.header-info h1 {
   font-size: 1.5rem;
   font-weight: 500;
   color: var(--white);
-
-  margin-bottom: 0.75rem;
 }
 
-header p {
+.header-info p {
   font-size: 1rem;
   font-weight: 400;
   line-height: 22.4px;
@@ -88,7 +97,7 @@ section > p {
   line-height: 19.6px;
   color: var(--dark);
 
-  max-width: 319px;
+  max-width: 19.9375rem;
   margin: 0 auto 2.5rem auto;
 }
 
@@ -101,20 +110,19 @@ section > p {
 
 .card .sneaker-image {
   background-color: var(--gray);
+  width: 19.9375rem;
+  height: 12.5rem;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* gap: 10px; */
 
-  /* padding: 2.03125rem 2.9375rem; */
-  width: 319px;
-  height: 200px;
   margin-bottom: 1.5rem;
 }
 
 .card .sneaker-info {
-  max-width: 319px;
+  max-width: 19.9375rem;
 
   display: flex;
   flex-direction: column;
@@ -144,3 +152,58 @@ section > p {
   text-align: start;
 }
 
+@media screen and (min-width: 768px) {
+  .notice p {
+    font-size: 1rem;
+  }
+  header {
+    padding-left: 2rem;
+  }
+  .header-info p {
+    font-size: 1.125rem;
+    line-height: 25.2px;
+
+    max-width: 25rem;
+  }
+  section {
+    padding: 3.5rem 2rem;
+  }
+  section h2 {
+    font-size: 1.5rem;
+  }
+  section > p {
+    font-size: 1rem;
+    line-height: 22.4px;
+
+    max-width: 32.5rem;
+    margin: 0 auto 2.5rem auto;
+  }
+  .sneakers {
+    display: grid;
+    grid-template-columns: repeat(2, 21rem);
+    justify-items: center;
+    place-content: center;
+    gap: 2.5rem 2rem;
+  }
+  .card .sneaker-image {
+    width: 21rem;
+  }
+  .card .sneaker-info {
+    max-width: 21rem;
+  }
+  .card .sneaker-info h3 {
+    font-size: 1.125rem;
+    line-height: 23.4px;
+
+  }
+}
+
+/* @media screen and (min-width: 1216px) {
+  .sneakers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    place-content: center;
+    gap: 2.5rem;
+  }
+} */
