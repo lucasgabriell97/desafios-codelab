@@ -10,3 +10,4 @@ Bem-vindo(a)! Este é um repositório front-end contendo os desafios da comunida
 :------: | :-----: | :--: | :--: | :-----:
 ✅ | 01 | Blog | <a href="https://blog-codelab.netlify.app/" target="_blank">Acessar</a> | HTML, CSS, JS
 ✅ | 02 | JordanShoes | <a href="https://jordanshoes-store.netlify.app/" target="_blank">Acessar</a> | HTML, CSS
+⚠️ | 03 | TechBlog | Em breve | Em breve
