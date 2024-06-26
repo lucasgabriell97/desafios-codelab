@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brand-color: #846aff;
+
+  --dark: #121214;
+
+  --gray-10: #7c7c8a;
+  --gray-20: #eaeaea;
+  --gray-30: #eeeeff;
+  --gray-40: #f8f8ff;
+
+  --white: #ffffff;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.button {
+  background-color: var(--brand-color);
+  border: none;
+  border-radius: 4px;
+  padding-block: 0.875rem;
+
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--white);
+}

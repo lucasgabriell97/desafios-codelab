@@ -1,0 +1,11 @@
+.contact-section {
+  padding: 4rem 1.5rem;
+}
+
+.contact-section h2 {
+  font-weight: 600;
+  font-size: 1.75rem;
+  color: var(--dark);
+
+  margin-bottom: 3rem;
+}

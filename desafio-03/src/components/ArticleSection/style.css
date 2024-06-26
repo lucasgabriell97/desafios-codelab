@@ -1,0 +1,17 @@
+.article-section {
+  padding: 4rem 1.5rem;
+}
+
+.article-section h2 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--dark);
+
+  margin-bottom: 2.5rem;
+}
+
+.articles {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
