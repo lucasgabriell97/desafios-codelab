@@ -1,0 +1,18 @@
+footer {
+  padding: 2rem 1.5rem;
+}
+
+footer p {
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--dark);
+}
+
+footer a {
+  font-weight: 600;
+  color: var(--brand-color);
+}
+
+footer a:hover {
+  text-decoration: none;
+}
