@@ -1,5 +1,5 @@
 header {
-  padding: 4rem 1.5rem;
+  padding: 4rem 0;
   background-color: var(--gray-40);
 }
 
@@ -20,8 +20,7 @@ header {
 .header-description {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  justify-content: center;
+  align-items: center;
 }
 
 .header-description h1 {
@@ -32,6 +31,7 @@ header {
   color: var(--dark);
 
   margin-bottom: 1.5rem;
+  max-width: 568px;
 }
 
 .header-description span {
@@ -46,8 +46,30 @@ header {
   color: var(--dark);
 
   margin-bottom: 1.5rem;
+  max-width: 568px;
 }
 
 .header-description button {
   font-size: 0.875rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .header-image img {
+    width: 330px;
+  }
+  .header-description h1 {
+    font-size: 2rem;
+    line-height: 38.4px;
+    max-width: 465px;
+  } 
+  .header-description p {
+    font-size: 1.25rem;
+    line-height: 30px;
+    max-width: 465px;
+  }
+  .header-description button {
+    font-size: 1.125rem;
+    width: 214px;
+  }
 }

@@ -8,7 +8,7 @@ import headerImg from "../../assets/images/illustra.png";
 const Header = () => {
   return (
     <header>
-      <div className="header-content">
+      <div className="header-content container">
         <div className="header-image">
           <img src={headerImg} alt="Imagem ilustrativa de uma pessoa comemorando" />
         </div>

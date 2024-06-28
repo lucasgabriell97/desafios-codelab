@@ -10,3 +10,10 @@
   padding: 1rem 1.125rem;
   margin-bottom: 1.5rem;
 }
+
+@media screen and (min-width: 768px) {
+  .input {
+    font-size: 1.125rem;
+    padding: 1.125rem 1.5rem;
+  }
+}

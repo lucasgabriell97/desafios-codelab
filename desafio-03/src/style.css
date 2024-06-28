@@ -17,12 +17,17 @@
   --white: #ffffff;
 }
 
-img {
-  width: 100%;
+html {
+  scroll-behavior: smooth;   
 }
 
 body {
   font-family: "Roboto", sans-serif;
+}
+  
+img {
+  display: block;
+  max-width: 100%;
 }
 
 .button {
@@ -36,3 +41,20 @@ body {
   text-transform: uppercase;
   color: var(--white);
 }
+
+.container {
+  margin: 0 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    margin: 0 2rem;
+  }
+}  
+
+@media screen and (min-width: 1216px) {
+  .container {
+    max-width: 1216px;
+    margin: 0 auto;
+  }
+}  

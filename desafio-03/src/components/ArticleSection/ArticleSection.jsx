@@ -54,16 +54,18 @@ const articles = [
 const ArticleSection = () => {
   return (
     <section className="article-section">
-      <h2>Artigos recomendados</h2>
-      <div className="articles">
-        {articles.map((article, index) => (
-          <Article
-            key={index}
-            articleImg={article.img}
-            title={article.title}
-            description={article.description}
-          />
-        ))}
+      <div className="container">
+        <h2>Artigos recomendados</h2>
+        <div className="articles">
+          {articles.map((article, index) => (
+            <Article
+              key={index}
+              articleImg={article.img}
+              title={article.title}
+              description={article.description}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );

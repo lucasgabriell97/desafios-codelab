@@ -20,3 +20,10 @@
 .contact-form button {
   font-size: 1rem;
 }
+
+@media screen and (min-width: 768px) {
+  .contact-form textarea {
+    font-size: 1.125rem;
+    padding: 1.125rem 1.5rem;
+  }
+}

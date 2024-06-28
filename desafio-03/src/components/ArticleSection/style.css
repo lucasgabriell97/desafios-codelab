@@ -1,5 +1,5 @@
 .article-section {
-  padding: 4rem 1.5rem;
+  padding: 4rem 0;
 }
 
 .article-section h2 {
@@ -14,4 +14,18 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .article-section {
+  padding: 5rem 0;
+}
+.article-section h2 {
+  font-size: 1.75rem;
+  margin-bottom: 3.5rem;
+}
+.articles {
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem 2rem;
+}
 }
