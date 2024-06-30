@@ -35,3 +35,18 @@
   line-height: 21px;
   color: var(--dark);
 }
+
+@media screen and (min-width: 1216px) {
+  .card-description {
+    padding: 2rem 1.5rem;
+  }
+  .card-description h3 {
+    font-size: 1.25rem;
+    line-height: 26px; 
+  }
+  .card-description p {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 27px;
+  }
+}

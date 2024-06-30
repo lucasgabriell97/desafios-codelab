@@ -73,3 +73,40 @@ header {
     width: 214px;
   }
 }
+
+@media screen and (min-width: 1216px) {
+  header {
+    padding: 3.125rem 0;
+  }
+  .header-content {
+   flex-direction: row-reverse;
+   gap: 235px;
+  }
+  .header-image {
+    margin-bottom: 0;
+  }
+  .header-image img {
+    width: 400px;
+  }
+  .header-description {
+    align-items: start;
+  }
+  .header-description h1 {
+    font-size: 2.5rem;
+    line-height: 48px;
+    text-align: left;
+    margin-bottom: 2rem;
+    max-width: 581px;
+  }
+  .header-description p {
+    font-size: 1.5rem;
+    line-height: 36px;
+    text-align: left;
+    margin-bottom: 2rem;
+    max-width: 550px;
+  }
+  .header-description button {
+    font-size: 1.125rem;
+    width: 13.375rem;
+  }
+}
