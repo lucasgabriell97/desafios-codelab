@@ -11,3 +11,16 @@
 
   margin-bottom: 3rem;
 }
+
+@media screen and (min-width: 768px) {
+  .contact-section {
+    padding: 5rem 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contact-section h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+}

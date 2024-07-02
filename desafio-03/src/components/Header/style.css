@@ -49,8 +49,10 @@ header {
   max-width: 568px;
 }
 
-.header-description button {
+.header-description a {
   font-size: 0.875rem;
+  text-align: center;
+  text-decoration: none;
   width: 100%;
 }
 
@@ -68,13 +70,13 @@ header {
     line-height: 30px;
     max-width: 465px;
   }
-  .header-description button {
+  .header-description a {
     font-size: 1.125rem;
     width: 214px;
   }
 }
 
-@media screen and (min-width: 1216px) {
+@media screen and (min-width: 1280px) {
   header {
     padding: 3.125rem 0;
   }
@@ -105,7 +107,7 @@ header {
     margin-bottom: 2rem;
     max-width: 550px;
   }
-  .header-description button {
+  .header-description a {
     font-size: 1.125rem;
     width: 13.375rem;
   }
