@@ -3,12 +3,12 @@ import Article from "../Article/Article";
 
 import "./style.css";
 
-import articleImg1 from "../../assets/images/image-1.png";
-import articleImg2 from "../../assets/images/image-2.png";
-import articleImg3 from "../../assets/images/image-3.png";
-import articleImg4 from "../../assets/images/image-4.png";
-import articleImg5 from "../../assets/images/image-5.png";
-import articleImg6 from "../../assets/images/image-6.png";
+import articleImg1 from "../../assets/images/image-1.webp";
+import articleImg2 from "../../assets/images/image-2.webp";
+import articleImg3 from "../../assets/images/image-3.webp";
+import articleImg4 from "../../assets/images/image-4.webp";
+import articleImg5 from "../../assets/images/image-5.webp";
+import articleImg6 from "../../assets/images/image-6.webp";
 
 const articles = [
   {

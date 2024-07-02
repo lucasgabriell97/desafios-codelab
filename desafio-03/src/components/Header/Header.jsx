@@ -2,7 +2,7 @@ import React from "react";
 
 import "./style.css";
 
-import headerImg from "../../assets/images/illustra.png";
+import headerImg from "../../assets/images/illustra.webp";
 
 
 const Header = () => {

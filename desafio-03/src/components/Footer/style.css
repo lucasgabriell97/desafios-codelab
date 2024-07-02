@@ -23,7 +23,7 @@ footer a:hover {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1280px) {
   footer p {
     font-size: 1rem;
   }

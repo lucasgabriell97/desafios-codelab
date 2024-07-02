@@ -11,10 +11,15 @@
 
   border-radius: 0.25rem;
   border: 1px solid var(--gray-20);
+  outline: 0;
   height: 9.375rem;
 
   padding: 1rem 1.125rem;
   margin-bottom: 2.5rem;
+}
+
+.contact-form textarea:focus {
+  border: 1px solid var(--brand-color);
 }
 
 .contact-form button {
