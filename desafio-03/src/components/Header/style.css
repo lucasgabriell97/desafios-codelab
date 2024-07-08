@@ -14,7 +14,9 @@ header {
 }
 
 .header-image img {
-  width: 207px;
+  width: 100%;
+  max-width: 207px;
+  height: auto;
 }
 
 .header-description {
@@ -58,7 +60,8 @@ header {
 
 @media screen and (min-width: 768px) {
   .header-image img {
-    width: 330px;
+    max-width: 330px;
+    height: auto;
   }
   .header-description h1 {
     font-size: 2rem;
@@ -88,7 +91,8 @@ header {
     margin-bottom: 0;
   }
   .header-image img {
-    width: 400px;
+    max-width: 400px;
+    height: auto;
   }
   .header-description {
     align-items: start;
