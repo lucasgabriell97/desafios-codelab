@@ -10,7 +10,7 @@ const Header = () => {
     <header>
       <div className="header-content container">
         <div className="header-image">
-          <img src={headerImg} alt="Imagem ilustrativa de uma pessoa comemorando" />
+          <img src={headerImg} alt="Imagem ilustrativa de uma pessoa comemorando" width={400} height={460} />
         </div>
         <div className="header-description">
           <h1>Encontre os <span>melhores artigos</span> de programação em um só lugar</h1>

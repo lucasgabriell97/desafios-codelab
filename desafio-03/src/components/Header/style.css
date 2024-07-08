@@ -61,7 +61,6 @@ header {
 @media screen and (min-width: 768px) {
   .header-image img {
     max-width: 330px;
-    height: auto;
   }
   .header-description h1 {
     font-size: 2rem;
@@ -92,7 +91,6 @@ header {
   }
   .header-image img {
     max-width: 400px;
-    height: auto;
   }
   .header-description {
     align-items: start;

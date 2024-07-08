@@ -5,7 +5,7 @@ import "./style.css";
 const Article = ({ articleImg, title, description }) => {
   return (
     <article className="card">
-      <img src={articleImg} alt={title} />
+      <img src={articleImg} alt={title} width={384} height={175} />
       <div className="card-description">
         <h3>{title}</h3>
         <p>{description}</p>
