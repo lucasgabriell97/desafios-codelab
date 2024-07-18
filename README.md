@@ -2,7 +2,7 @@
  <h1>Desafios Frontend - $\color{orange}{\textsf{CodeLab}}$ ☕</h1>
 </div>
 
-<p>Seja bem-vindo(a). Este repositório contém desafios Front-End propostos pela comunidade CodeLab, criada pelo professor <a href="https://github.com/iuricode" target="_blank">IuriCode</a>. Na tabela abaixo você encontra todas as minhas resoluções.</p> 
+<p>Seja bem-vindo(a). Este repositório contém desafios propostos pela comunidade CodeLab, criada pelo professor <a href="https://github.com/iuricode" target="_blank">IuriCode</a>. Na tabela abaixo você encontra todas as minhas resoluções.</p> 
 
 ## Desafios Concluídos 🏆
 
