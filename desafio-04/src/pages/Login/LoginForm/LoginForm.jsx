@@ -8,12 +8,13 @@ import "./style.css";
 const LoginForm = () => {
   return (
     <div className="login-form">
-      <div className="content-form">
+      <div className="login-form-content">
+
         <div className="text-form">
           <p>Bem-vindo de volta</p>
           <h1>Faça login na sua conta</h1>
         </div>
-        <form>
+        <form className="form">
           <Label htmlFor="email" text="E-mail" />
           <Input
             type="email"
@@ -35,14 +36,15 @@ const LoginForm = () => {
             </div>
             <a href="#">Esqueceu sua senha?</a>
           </div>
-          <button className="btn-form">Entrar na conta</button>
-          <button className="btn-google">
-            <img src={IconGoogle} alt="" /> Ou faça login com o Google
+          <button className="btn btn-form">Entrar na conta</button>
+          <button className="btn btn-google">
+            <img src={IconGoogle} alt="Ícone do Google" /> Ou faça login com o
+            Google
           </button>
         </form>
-        <p>
-          Não tem conta?
-          <a href="#">Cadastre-se</a>
+        <p className="register">
+          Não tem uma conta?
+          <a href="#"> Cadastre-se</a>
         </p>
       </div>
     </div>

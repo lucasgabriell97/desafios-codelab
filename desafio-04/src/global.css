@@ -28,3 +28,11 @@ img {
 a {
   text-decoration: none;
 }
+
+.btn {
+  border: none;
+  border-radius: 4px;
+  color: var(--white);
+  font-weight: 600;
+  font-size: 1rem;
+}

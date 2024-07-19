@@ -1,7 +1,13 @@
 .label-form {
   font-weight: 400;
-  font-size: 0.875;
+  font-size: 0.875rem;
   color: var(--dark);
 
   margin-bottom: 0.75rem;
+}
+
+@media screen and (min-width: 768px) {
+  .label-form {
+    font-size: 1.125rem;
+  }
 }
