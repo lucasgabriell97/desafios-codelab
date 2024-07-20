@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brand-color: #1e9e6a;
+
+  --dark: #1a202c;
+
+  --gray-10: #656769;
+  --gray-20: #e8e8e8;
+  --gray-30: #f7fafc;
+
+  --white: #ffffff;
+}
+
+body {
+  font-family: "Archivo", sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  border: none;
+  border-radius: 4px;
+  color: var(--white);
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: opacity 0.4s ease;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}

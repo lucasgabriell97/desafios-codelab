@@ -1,0 +1,143 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  margin: 0 1.5rem;
+}
+
+.login-form-content {
+  max-width: 400px;
+  width: 100%;
+}
+
+.text-form {
+  margin-bottom: 2.5rem;
+}
+
+.text-form p {
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--dark);
+
+  margin-bottom: 0.5rem;
+}
+
+.text-form h1 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--dark);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 3.5rem;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.remember input {
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--gray-30);
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid var(--gray-20);
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.remember input:checked {
+  background-color: var(--brand-color);
+}
+
+.remember label {
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: var(--dark);
+}
+
+.remember-forgot a {
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: var(--brand-color);
+}
+
+.btn-form {
+  background-color: var(--brand-color);
+  margin-bottom: 1.5rem;
+  padding: 0.875rem 2rem;
+}
+
+.btn-google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+
+  background-color: var(--dark);
+  margin-bottom: 4rem;
+  padding: 0.875rem 2rem;
+}
+
+.btn-google img {
+  width: 1rem;
+}
+
+.register {
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--dark);
+  text-align: center;
+}
+
+.register a {
+  color: var(--brand-color);
+}
+
+@media screen and (min-width: 768px) {
+  .login-form {
+    margin: 0;
+  }
+  .text-form p {
+    font-size: 1.25rem;  
+    margin-bottom: 0.75rem;
+  }
+  .text-form h1 {
+    font-size: 2rem;
+  }
+  .remember {
+    gap: 0.75rem;
+  }
+  .remember label {
+    font-size: 1rem;
+  }
+  .remember-forgot a {
+    font-size: 1rem;
+  }
+  .btn-form {
+    padding: 1rem 2rem;
+  }
+  .btn-google img {
+    width: 1.5rem;
+  }
+  .register {
+    font-size: 1.25rem;
+  }
+}
