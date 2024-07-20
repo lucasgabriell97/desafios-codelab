@@ -1,4 +1,3 @@
-import React from "react";
 import Label from "../../../components/Label/Label";
 import Input from "../../../components/Input/Input";
 
@@ -9,7 +8,6 @@ const LoginForm = () => {
   return (
     <div className="login-form">
       <div className="login-form-content">
-
         <div className="text-form">
           <p>Bem-vindo de volta</p>
           <h1>Faça login na sua conta</h1>

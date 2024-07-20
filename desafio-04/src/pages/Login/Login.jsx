@@ -1,4 +1,4 @@
-import React from 'react'
+import LoginImage from './LoginImage/LoginImage'
 import LoginForm from './LoginForm/LoginForm'
 
 import "./style.css"
@@ -6,6 +6,7 @@ import "./style.css"
 const index = () => {
   return (
     <main className="grid-layout">
+      <LoginImage />
       <LoginForm />
     </main>
   )

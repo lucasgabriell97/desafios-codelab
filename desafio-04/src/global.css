@@ -35,4 +35,10 @@ a {
   color: var(--white);
   font-weight: 600;
   font-size: 1rem;
+  cursor: pointer;
+  transition: opacity 0.4s ease;
+}
+
+.btn:hover {
+  opacity: 0.8;
 }
