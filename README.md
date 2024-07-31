@@ -2,7 +2,7 @@
  <h1>Desafios Frontend - CodeLab ☕</h1>
 </div>
 
-<p>Seja bem-vindo(a). Este repositório contém desafios propostos pela comunidade CodeLab, criada pelo professor <a href="https://github.com/iuricode" target="_blank">IuriCode</a>. Na tabela abaixo você encontra todas as minhas resoluções.</p> 
+<p>Seja bem-vindo(a). Este repositório contém desafios propostos pela comunidade CodeLab, criada pelo professor <a href="https://github.com/iuricode" target="_blank">IuriCode</a>. O objetivo é deixar o mais parecido possível com o design do <a href="https://www.figma.com/design/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---CodeLab?node-id=5854-2&t=wBt6fiunEww4ROTZ-0" target="_blank">Figma</a> e usar as melhores práticas de desenvolvimento.</p> 
 
 ## Desafios Concluídos 🏆
 
