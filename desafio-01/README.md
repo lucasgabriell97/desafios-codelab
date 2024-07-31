@@ -14,3 +14,4 @@ Essa é a minha resolução do desafio 01 da comunidade CodeLab. O projeto se tr
 
 - HTML;
 - CSS;
+- JavaScript;
