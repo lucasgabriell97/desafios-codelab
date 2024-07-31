@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brand-color: #f1a5b1;
+
+  --dark: #0b0a0a;
+
+  --white: #ffffff;
+}
+
+body {
+  font-family: "Archivo", sans-serif;
+  background-image: url("./assets/images/wallpaper.png");
+  background-position: top center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Andada Pro", serif;
+}
