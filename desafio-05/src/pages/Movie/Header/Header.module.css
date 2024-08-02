@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 2.4rem;
+}
+
+.logo {
+  width: 10.0rem;
+}
+
+.navbar { 
+  display: none;
+}
+
+@media (width >= 768px) {
+  .header {
+    justify-content: space-between;
+  }
+  .logo {
+    width: 13.5rem;
+  }
+  .navbar {
+    display: flex;
+    gap: 2.4rem;
+    width: 20rem;
+  }
+  .navbar li {
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    padding: .6rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+  }
+}

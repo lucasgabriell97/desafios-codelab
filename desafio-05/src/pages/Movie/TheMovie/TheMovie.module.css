@@ -1,0 +1,100 @@
+.movie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  margin: 0 2.4rem;
+}
+
+.movieImg {
+  display: flex;
+  justify-content: center;
+}
+
+.movieImg img {
+  width: 25.0rem;
+}
+
+.movieContent {
+  max-width: 448px;
+}
+
+.movieContent span {
+  display: block;
+
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--white);
+
+  margin-bottom: .8rem;
+}
+
+.movieTitle {
+  max-width: 27rem;
+
+  font-size: 4rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--white);
+
+  margin-bottom: 3.2rem;
+}
+
+.movieDescription {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--white);
+  line-height: 2.4rem;
+
+  margin-bottom: 4rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.watchMovie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .8rem;
+
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--dark);
+  text-transform: uppercase;
+  border-radius: .4rem;
+  border: none;
+  background-color: var(--brand-color);
+
+  padding: 1.4rem 3.2rem;
+}
+
+.watchMovie img {
+  width: 1.725rem;
+}
+
+.watchTrailer {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--white);
+  text-transform: uppercase;
+  border-radius: .4rem;
+  border: 2px solid var(--brand-color);
+  background-color: transparent;
+
+  padding: 1.4rem 3.2rem;
+}
+
+@media (width >= 768px) {
+  .movieImg img {
+    width: 32.7rem;
+  }
+  .movieDescription {
+    margin-bottom: 4.8rem;
+  }
+}

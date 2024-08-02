@@ -12,6 +12,10 @@
   --white: #ffffff;
 }
 
+html {
+  font-size: 62.5%
+}
+
 body {
   font-family: "Archivo", sans-serif;
   background-image: url("./assets/images/wallpaper.png");
@@ -24,6 +28,10 @@ body {
 img {
   display: block;
   max-width: 100%;
+}
+
+ul {
+  list-style: none;
 }
 
 h1,

@@ -1,12 +1,16 @@
 import Header from "./Header/Header";
+import TheMovie from "./TheMovie/TheMovie";
 
 import styles from "./Movie.module.css";
 
 const Movie = () => {
   return (
-    <main>
+    <>
       <Header />
-    </main>
+      <main className={styles.container}>
+        <TheMovie />
+      </main>
+    </>
   );
 };
 
