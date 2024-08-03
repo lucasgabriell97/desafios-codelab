@@ -14,4 +14,4 @@ As estrelas se referem a conquista do melhor projeto da semana.
 ✅ | 02 | JordanShoes | <a href="https://jordanshoes-store.netlify.app/" target="_blank">Acessar</a> | HTML, CSS
 ✅ | 03 | TechBlog | <a href="https://tech-blog-psi-nine.vercel.app/" target="_blank">Acessar</a> | React
 ✅ | 04 | Login | <a href="https://login-drab-ten.vercel.app/" target="_blank">Acessar</a> | React | ⭐
-✅ | 05 | Studio Ghibli | <a href="https://studio-ghibli-codelab.vercel.app/" target="_blank">Acessar</a> | React
+✅ | 05 | Studio Ghibli | <a href="https://studio-ghibli-phi.vercel.app/" target="_blank">Acessar</a> | React
