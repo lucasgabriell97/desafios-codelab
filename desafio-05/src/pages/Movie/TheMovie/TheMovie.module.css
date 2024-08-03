@@ -18,6 +18,8 @@
 
 .movieContent {
   max-width: 448px;
+
+  margin-bottom: 6.4rem;
 }
 
 .movieContent span {
@@ -63,15 +65,22 @@
   align-items: center;
   gap: .8rem;
 
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: var(--dark);
   text-transform: uppercase;
   border-radius: .4rem;
   border: none;
   background-color: var(--brand-color);
+  transition: 0.3s;
+  cursor: pointer;
 
   padding: 1.4rem 3.2rem;
+  width: 100%;
+}
+
+.watchMovie:hover {
+  opacity: 0.8;
 }
 
 .watchMovie img {
@@ -79,15 +88,23 @@
 }
 
 .watchTrailer {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: var(--white);
   text-transform: uppercase;
   border-radius: .4rem;
   border: 2px solid var(--brand-color);
   background-color: transparent;
+  transition: 0.3s;
+  cursor: pointer;
 
   padding: 1.4rem 3.2rem;
+  width: 100%;
+}
+
+.watchTrailer:hover {
+  background-color: var(--brand-color);
+  color: var(--dark);
 }
 
 @media (width >= 768px) {
@@ -96,5 +113,41 @@
   }
   .movieDescription {
     margin-bottom: 4.8rem;
+  }
+}
+
+@media (width >= 1264px) { 
+  .movie {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    max-width: 1216px;
+    margin: 0 auto;
+  }
+  .movieImg img {
+    width: 57.4rem;
+  }
+  .movieContent {
+    max-width: 502px;
+  }
+  .movieContent span {
+    font-size: 2rem;
+  }
+  .movieTitle {
+    max-width: 42rem;
+    font-size: 6.4rem;
+  }
+  .movieDescription {
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+  }
+  .buttons {
+    flex-direction: row;
+  }
+  .watchMovie {
+    gap: 0.6rem;
+    font-size: 1.7rem;
+  }
+  .watchTrailer {
+    font-size: 1.7rem;
   }
 }

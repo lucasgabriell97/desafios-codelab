@@ -20,7 +20,7 @@ body {
   font-family: "Archivo", sans-serif;
   background-image: url("./assets/images/wallpaper.png");
   background-position: top center; 
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-size: cover;
   height: 100vh;
 }
