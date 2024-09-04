@@ -18,7 +18,7 @@ html {
 
 body {
   font-family: "Archivo", sans-serif;
-  background-image: url("./assets/images/wallpaper.png");
+  background-image: url("./assets/images/wallpaper.webp");
   background-position: top center; 
   background-repeat: repeat-y;
   background-size: cover;
