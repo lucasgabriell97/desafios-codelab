@@ -8,10 +8,10 @@
 
 As estrelas se referem a conquista do melhor projeto da semana.
 
-| Status | Desafio | Nome | Demo | Tecnologias Utilizadas | Destaque
-:------: | :-----: | :--: | :--: | :-----: | :-----:
-✅ | 01 | Blog | <a href="https://blog-codelab.netlify.app/" target="_blank">Acessar</a> | HTML, CSS, JAVASCRIPT | ⭐
+| Status | Desafio | Nome | Demo | Tecnologias Utilizadas 
+:------: | :-----: | :--: | :--: | :-----: | 
+✅ | 01 | Blog | <a href="https://blog-codelab.netlify.app/" target="_blank">Acessar</a> | HTML, CSS, JavaScript 
 ✅ | 02 | JordanShoes | <a href="https://jordanshoes-store.netlify.app/" target="_blank">Acessar</a> | HTML, CSS
-✅ | 03 | TechBlog | <a href="https://tech-blog-psi-nine.vercel.app/" target="_blank">Acessar</a> | REACT
-✅ | 04 | Login | <a href="https://login-drab-ten.vercel.app/" target="_blank">Acessar</a> | REACT | ⭐
-⚠️ | 05 | Studio Ghibli | Em breve | Em breve
+✅ | 03 | TechBlog | <a href="https://tech-blog-psi-nine.vercel.app/" target="_blank">Acessar</a> | React
+✅ | 04 | Login | <a href="https://login-drab-ten.vercel.app/" target="_blank">Acessar</a> | React 
+✅ | 05 | Studio Ghibli | <a href="https://studio-ghibli-phi.vercel.app/" target="_blank">Acessar</a> | React
