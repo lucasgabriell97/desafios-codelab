@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brand-color: #97edaa;
+
+  --dark-10: #0b0b0b;
+  --dark-20: #101010;
+  --dark-30: #1f1f1f;
+
+  --white: #ffffff;
+}
+
+html {
+  font-size: 62.5%
+}
+
+body {
+  font-family: "Archivo", sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
