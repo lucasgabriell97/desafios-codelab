@@ -1,0 +1,30 @@
+.aboutMe {
+  margin-bottom: 6.4rem;
+}
+
+.description {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--white);
+  line-height: 2;
+  text-align: center;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.info div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info p {
+  color: #fff;
+}
+
+.info span {
+  color: #fff;
+}

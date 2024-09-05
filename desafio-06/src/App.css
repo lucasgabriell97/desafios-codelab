@@ -15,14 +15,23 @@
 }
 
 html {
-  font-size: 62.5%
+  font-size: 62.5%;
 }
 
 body {
   font-family: "Archivo", sans-serif;
+  background-color: var(--dark-10);
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+span, button {
+  display: block;
+}
+
+.container {
+  padding: 0 2.4rem;
 }

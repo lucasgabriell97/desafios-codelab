@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom: 2px solid var(--dark-20);
+  margin-bottom: 6.4rem;
+}
+
+.logo {
+  font-family: "Fira Code", monospace;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--brand-color);
+}
