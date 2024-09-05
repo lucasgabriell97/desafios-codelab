@@ -11,20 +11,40 @@
 }
 
 .info {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 7rem;
+  color: var(--white);
 }
 
 .info div {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  gap: 2rem;
 }
 
-.info p {
-  color: #fff;
+.icon {
+  width: 6.2rem;
+  height: 6.2rem;
+  border: 1px solid var(--dark-30);
+  background-color: var(--dark-20);
+  border-radius: 50%;
+  align-items: center;
 }
 
-.info span {
-  color: #fff;
+.icon img {
+  width: 3.2rem;
+}
+
+.titulo {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.value {
+  font-size: 1.4rem;
+  font-weight: 400;
 }

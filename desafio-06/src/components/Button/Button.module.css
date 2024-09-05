@@ -1,0 +1,17 @@
+.button {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--dark-10);
+  background-color: var(--brand-color);
+  border: 2px solid var(--brand-color);
+  border-radius: 0.4rem;
+  transition: 0.3s;
+  cursor: pointer;
+
+  padding: 1rem 4rem;
+}
+
+.button:hover {
+  color: var(--brand-color);
+  background-color: transparent;
+}

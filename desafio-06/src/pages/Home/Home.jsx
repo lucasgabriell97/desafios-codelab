@@ -1,14 +1,16 @@
 import AboutSection from "../../layouts/AboutSection/AboutSection";
 import Header from "../../layouts/Header/Header";
-import IntroductionSection from "../../layouts/IntroductionSection/IntroductionSection";
+import Introduction from "../../layouts/Introduction/Introduction";
+import ProjectSection from "../../layouts/ProjectSection/ProjectSection";
 
 const Home = () => {
   return (
     <>
       <Header />
       <main className="container">
-        <IntroductionSection />
+        <Introduction />
         <AboutSection />
+        <ProjectSection />
       </main>
     </>
   );

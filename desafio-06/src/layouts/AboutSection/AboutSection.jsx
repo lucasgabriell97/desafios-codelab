@@ -15,7 +15,7 @@ const AboutSection = () => {
   ];
 
   return (
-    <section>
+    <section className={`${styles.about} section`}>
       <div className={styles.aboutMe}>
         <Title>Sobre mim</Title>
         <p className={styles.description}>
@@ -29,9 +29,11 @@ const AboutSection = () => {
       <div className={styles.info}>
         {userInfo.map((info, index) => (
           <div key={index}>
-            <img src={info.icon} alt="" />
-            <p>{info.titulo}</p>
-            <span>{info.value}</span>
+            <div className={styles.icon}>
+              <img src={info.icon} alt="" />
+            </div>
+            <p className={styles.titulo}>{info.titulo}</p>
+            <span className={styles.value}>{info.value}</span>
           </div>
         ))}
       </div>

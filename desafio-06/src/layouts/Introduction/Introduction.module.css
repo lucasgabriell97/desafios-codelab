@@ -1,4 +1,4 @@
-.section {
+.introduction {
   display: flex;
   flex-direction: column;
 
@@ -24,15 +24,4 @@
   color: var(--white);
 
   margin-bottom: 2.5rem;
-}
-
-.button {
-  font-size: 1.6rem;
-  font-weight: 600;
-  color: var(--dark-10);
-  background-color: var(--brand-color);
-  border: none;
-  border-radius: 0.4rem;
-
-  padding: 1rem 4rem;
 }
