@@ -4,9 +4,9 @@ import ProjectCard from "../../components/ProjectCard/ProjectCard";
 
 const ProjectSection = () => {
   return (
-    <section className={`section`}>
+    <section className="section">
       <Title>Projetos</Title>
-      <div className={styles.containerCards}>
+      <div className={styles.projectContainer}>
         <ProjectCard />
         <ProjectCard />
         <ProjectCard />

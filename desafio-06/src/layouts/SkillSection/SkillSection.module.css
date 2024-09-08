@@ -1,0 +1,18 @@
+.skillContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3.2rem;
+}
+
+.skillCard {
+  display: flex;
+  background-color: var(--dark-20);
+  border: 2px solid var(--dark-30);
+
+  padding: 3.5rem 4.8rem;
+}
+
+.icon {
+  width: 7rem;
+}
