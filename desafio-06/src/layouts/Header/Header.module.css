@@ -13,3 +13,9 @@
   font-weight: 400;
   color: var(--brand-color);
 }
+
+@media (width >= 768px) {
+  .logo {
+    font-size: 2rem;
+  }
+}

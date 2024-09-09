@@ -4,6 +4,7 @@ import Introduction from "../../layouts/Introduction/Introduction";
 import ProjectSection from "../../layouts/ProjectSection/ProjectSection";
 import ServiceSection from "../../layouts/ServiceSection/ServiceSection";
 import SkillSection from "../../layouts/SkillSection/SkillSection";
+import Footer from "../../layouts/Footer/Footer";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         <ServiceSection />
         <SkillSection />
       </main>
+      <Footer />
     </>
   );
 };

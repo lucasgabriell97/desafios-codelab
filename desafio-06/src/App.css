@@ -37,6 +37,12 @@ button {
   padding: 0 2.4rem;
 }
 
+@media (width >= 768px) {
+  .container {
+    padding: 0 3.2rem;
+  }
+}
+
 .section {
   margin-bottom: 15rem;
 }

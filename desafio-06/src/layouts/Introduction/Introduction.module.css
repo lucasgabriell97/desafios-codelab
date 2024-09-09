@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr;
 
-  margin-bottom: 6.4rem;
+  margin-bottom: 15rem;
 }
 
 .title {
@@ -24,4 +24,24 @@
   color: var(--white);
 
   margin-bottom: 2.5rem;
+}
+
+.image {
+  display: none;
+}
+
+@media (width >= 768px) {
+  .introduction {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+  .title span {
+    margin: 1rem 0 2.4rem 0;
+  }
+  .description {
+    margin-bottom: 3rem;
+  }
+  .image {
+    display: block;
+  }
 }

@@ -25,3 +25,12 @@
   color: var(--white);
   max-width: 9rem;
 }
+
+@media (width >= 768px) { 
+  .icon {
+    width: 5rem;
+  }
+  .title {
+    font-size: 2.4rem;
+  }
+}

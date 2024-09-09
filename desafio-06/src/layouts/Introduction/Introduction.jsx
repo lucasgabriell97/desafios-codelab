@@ -16,6 +16,7 @@ const Introduction = () => {
       </div>
       <div>
         <img
+          className={styles.image}
           src={IllustrativeImage}
           alt="Ilustração de um smartphone se conectando com um planeta terra"
         />

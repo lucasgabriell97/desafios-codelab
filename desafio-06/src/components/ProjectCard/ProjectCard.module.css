@@ -47,3 +47,11 @@
 
   padding: 1rem 4rem;
 }
+
+@media (width >= 768px) { 
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 3.2rem;
+  }
+}
