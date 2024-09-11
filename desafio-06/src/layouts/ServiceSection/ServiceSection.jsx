@@ -13,7 +13,7 @@ const ServiceSection = () => {
   ];
 
   return (
-    <section className="section">
+    <section id="services" className="section">
       <Title>Serviços</Title>
       <div className={styles.serviceContainer}>
         {userServices.map(({ icon, title, alt }, index) => (

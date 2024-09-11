@@ -4,6 +4,8 @@
   gap: 3.2rem;
 }
 
-@media (width >= 768px) { 
-  
+@media (width >= 915px) { 
+  .projectContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

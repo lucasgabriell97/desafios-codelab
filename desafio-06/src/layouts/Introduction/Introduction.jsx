@@ -4,7 +4,7 @@ import Button from "../../components/Button/Button";
 
 const Introduction = () => {
   return (
-    <div className={styles.introduction}>
+    <div id="introduction" className={styles.introduction}>
       <div>
         <h1 className={styles.title}>
           Olá, eu sou <span>Iuri Silva</span>

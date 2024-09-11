@@ -16,6 +16,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -33,6 +34,18 @@ button {
   display: block;
 }
 
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section {
+  margin-bottom: 15rem;
+}
+
 .container {
   padding: 0 2.4rem;
 }
@@ -43,6 +56,12 @@ button {
   }
 }
 
-.section {
-  margin-bottom: 15rem;
+@media (width >= 1280px) {
+  .container {
+    max-width: 121.6rem;
+    margin: 0 auto;
+    padding: 0;
+  }
 }
+
+

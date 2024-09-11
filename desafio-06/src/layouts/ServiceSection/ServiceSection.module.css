@@ -34,3 +34,19 @@
     font-size: 2.4rem;
   }
 }
+
+@media (width >= 915px) { 
+  .serviceContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (width >= 1216px) { 
+  .icon {
+    width: 5.6rem;
+  }
+  .title {
+    font-size: 3.2rem;
+    max-width: 11rem;
+  }
+}

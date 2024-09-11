@@ -18,7 +18,7 @@ const SkillSection = () => {
     { icon: NextIcon, alt: "Ícone do Next" },
   ];
   return (
-    <section className="section">
+    <section id="skills" className="section">
       <Title>Habilidades</Title>
       <div className={styles.skillContainer}>
           {userSkills.map(({icon, alt}, index) => (

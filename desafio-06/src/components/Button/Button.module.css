@@ -8,10 +8,16 @@
   transition: 0.3s;
   cursor: pointer;
 
-  padding: 1rem 4rem;
+  padding: 1rem 2rem;
 }
 
 .button:hover {
   color: var(--brand-color);
   background-color: transparent;
+}
+
+@media (width >= 1216px) {  
+  .button {
+    padding: 1rem 4rem;
+  }
 }

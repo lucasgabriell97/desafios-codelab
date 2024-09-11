@@ -4,7 +4,7 @@ import ProjectCard from "../../components/ProjectCard/ProjectCard";
 
 const ProjectSection = () => {
   return (
-    <section className="section">
+    <section id="projects" className="section">
       <Title>Projetos</Title>
       <div className={styles.projectContainer}>
         <ProjectCard />

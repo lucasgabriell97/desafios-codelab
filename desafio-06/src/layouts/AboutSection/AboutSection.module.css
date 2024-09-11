@@ -50,6 +50,9 @@
 }
 
 @media (width >= 768px) { 
+  .info {
+    gap: 12rem;
+  }
   .description {
     font-size: 2rem;
   }   
@@ -58,5 +61,17 @@
   }
   .value {
     font-size: 1.6rem;
+  }
+}
+
+@media (width >= 1216px) { 
+  .description {
+    font-size: 2.4rem;
+  }   
+  .titulo {
+    font-size: 2rem;
+  }
+  .value {
+    font-size: 1.8rem;
   }
 }
