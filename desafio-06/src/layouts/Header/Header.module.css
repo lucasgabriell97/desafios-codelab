@@ -41,7 +41,7 @@
   top: 132px;
   left: 0;
   right: 0;
-  bottom: -50px;
+  bottom: 0;
   z-index: 1000;
 }
 
@@ -63,6 +63,25 @@
   font-size: 1.8rem;
   font-weight: 500;
   color: var(--white);
+}
+
+.navbar ul li a {
+  position: relative;
+}
+
+.navbar ul li a:before {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  width: 0%;
+  height: 2px;
+  background-color: var(--brand-color);
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.navbar ul li a:hover:before {
+  width: 100%;
 }
 
 @media (width >= 768px) {
@@ -90,9 +109,6 @@
 @media (width >= 1216px) { 
   .logo {
     font-size: 2.4rem;
-  }
-  .navbarMobile {
-    display: none;
   }
 }
 

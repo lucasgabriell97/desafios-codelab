@@ -1,0 +1,32 @@
+.backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 12px 12px;
+  border-radius: 50%;
+  background-color: var(--dark-30);
+  border: 2px solid var(--dark-20);
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+  transform: translateY(100%);
+}
+
+.backToTop.visible {
+  visibility: visible;
+  opacity: 1; 
+  transform: translateY(0);
+}
+
+.backToTop:hover {
+  opacity: 0.8;
+}
+
+.backToTop:focus {
+  outline: none;
+}
+
+.backToTop img {
+  width: 4.5rem;
+}
