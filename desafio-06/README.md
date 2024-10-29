@@ -4,7 +4,7 @@
 
 ![Design preview for the Mefolio](https://github.com/user-attachments/assets/3e326c21-2dcc-49c2-83ad-b7bb825048ba)
 
-<h4 align="center"><a href="https://studio-ghibli-4568bb.netlify.app/">Clique para visitar o projeto</a></h4>
+<h4 align="center"><a href="https://mefolio-478fde.netlify.app/">Clique para visitar o projeto</a></h4>
 
 ## 📚 Sobre o projeto
 
