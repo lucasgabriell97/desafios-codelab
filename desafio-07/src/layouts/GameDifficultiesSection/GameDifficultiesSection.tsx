@@ -1,39 +1,41 @@
 import React from "react";
-import * as S from "./styles";
-import SpiderWeb from "../../assets/images/web.svg";
 import { Button } from "../../components/Button/Button";
 import { GameSection } from "../GameSection/GameSection";
+import { GameMessageCard } from "../../components/GameMessageCard/GameMessageCard";
 
 export const GameDifficultiesSection: React.FC = () => {
-  const [difficulty, setDifficulty] = React.useState<
-    "easy" | "intermediate" | "hard" | null
-  >(null);
+  const [difficulty, setDifficulty] = React.useState<string | null>(null);
 
-  const handleDifficultySelect = (level: "easy" | "intermediate" | "hard") => {
+  const handleDifficultySelect = (level: string) => {
     setDifficulty(level);
+  };
+
+  const changeDifficulty = () => {
+    setDifficulty(null);
   };
 
   return (
     <>
       {!difficulty ? (
-        <S.GameDifficulties>
-          <S.Title>Escolha a dificuldade</S.Title>
-          <S.SpiderWeb src={SpiderWeb} />
+        <GameMessageCard
+          title="Buuh!"
+          message="Selecione o nível de desafio abaixo e comece sua aventura no jogo da memória!"
+        >
           <Button
-            value="Fácil"
             onClick={() => handleDifficultySelect("easy")}
+            label="Fácil"
           />
           <Button
-            value="Intermediário"
             onClick={() => handleDifficultySelect("intermediate")}
+            label="Intermediário"
           />
           <Button
-            value="Difícil"
             onClick={() => handleDifficultySelect("hard")}
+            label="Difícil"
           />
-        </S.GameDifficulties>
+        </GameMessageCard>
       ) : (
-        <GameSection difficulty={difficulty} />
+        <GameSection difficulty={difficulty} changeDifficulty={changeDifficulty} />
       )}
     </>
   );

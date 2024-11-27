@@ -10,12 +10,25 @@ import Image6 from "../../assets/images/6.svg";
 import Image7 from "../../assets/images/7.svg";
 import Image8 from "../../assets/images/8.svg";
 import Image9 from "../../assets/images/9.svg";
+import { GameMessageCard } from "../../components/GameMessageCard/GameMessageCard";
+import { Button } from "../../components/Button/Button";
 
 interface GameSectionProps {
-  difficulty: "easy" | "intermediate" | "hard";
+  difficulty: string;
+  changeDifficulty: () => void;
 }
 
-export const GameSection: React.FC<GameSectionProps> = ({ difficulty }) => {
+interface Card {
+  id: number;
+  src: string;
+  isFlipped: boolean;
+  isMatched: boolean;
+}
+
+export const GameSection: React.FC<GameSectionProps> = ({
+  difficulty,
+  changeDifficulty,
+}) => {
   const images = [
     Image1,
     Image2,
@@ -27,18 +40,105 @@ export const GameSection: React.FC<GameSectionProps> = ({ difficulty }) => {
     Image8,
     Image9,
   ];
-  const pairs = difficulty === "easy" ? 3 : difficulty === "intermediate" ? 6 : 9;
 
-  const cards = [...images.slice(0, pairs), ...images.slice(0, pairs)].sort(() => Math.random() - 0.5)
-  console.log(cards)
+  const getInitialCards = () => {
+    const pairs =
+      difficulty === "easy" ? 3 : difficulty === "intermediate" ? 6 : 9;
+    return [...images.slice(0, pairs), ...images.slice(0, pairs)]
+      .sort(() => Math.random() - 0.5)
+      .map((src, index) => ({
+        id: index,
+        src,
+        isFlipped: false,
+        isMatched: false,
+      }));
+  };
+
+  const [cards, setCards] = React.useState<Card[]>(getInitialCards());
+  const [flippedCards, setFlippedCards] = React.useState<number[]>([]);
+  const [gameCompleted, setGameCompleted] = React.useState(false);
+
+  const resetGame = () => {
+    setCards(getInitialCards());
+    setFlippedCards([]);
+    setGameCompleted(false);
+  };
+
+  React.useEffect(() => {
+    if (flippedCards.length === 2) {
+      const [first, second] = flippedCards;
+      setCards((prevCards) => {
+        if (prevCards[first].src === prevCards[second].src) {
+          const updatedCards = prevCards.map((card, index) =>
+            index === first || index === second
+              ? { ...card, isMatched: true }
+              : card
+          );
+
+          if (updatedCards.every((card) => card.isMatched)) {
+            setGameCompleted(true);
+          }
+
+          return updatedCards;
+        }
+        return prevCards;
+      });
+
+      setTimeout(() => {
+        setCards((prevCards) =>
+          prevCards.map((card) =>
+            card.isMatched ? card : { ...card, isFlipped: false }
+          )
+        );
+        setFlippedCards([]);
+      }, 1000);
+    }
+  }, [flippedCards]);
+
+  const handleCardClick = (index: number) => {
+    if (
+      !gameCompleted &&
+      flippedCards.length < 2 &&
+      !cards[index].isFlipped &&
+      !cards[index].isMatched
+    ) {
+      setCards((prevCards) =>
+        prevCards.map((card, i) =>
+          i === index ? { ...card, isFlipped: true } : card
+        )
+      );
+      setFlippedCards((prev) => [...prev, index]);
+    }
+  };
 
   return (
-    <S.Game pairs={pairs}>
+    <S.Game $pairs={cards.length / 2}>
       {cards.map((card, index) => (
-        <S.CardWrapper key={index}>
-          <S.CardImage src={card} />
+        <S.CardWrapper $isFlipped={card.isFlipped} key={card.id} onClick={() => handleCardClick(index)}>
+          {card.isFlipped || card.isMatched ? (
+            <S.CardImage src={card.src} />
+          ) : (
+            <S.CardText>Buuh!</S.CardText>
+          )}
         </S.CardWrapper>
       ))}
+
+      {gameCompleted && (
+        <S.Modal>
+          <GameMessageCard
+            title="Buuh!"
+            message="Parabéns! Você completou este jogo da memória. Que tal
+              experimentar uma dificuldade diferente ou jogar novamente na mesma
+              dificuldade?"
+          >
+            <Button onClick={() => resetGame()} label="Jogar Novamente" />
+            <Button
+              onClick={() => changeDifficulty()}
+              label="Mudar Dificuldade"
+            />
+          </GameMessageCard>
+        </S.Modal>
+      )}
     </S.Game>
   );
 };
