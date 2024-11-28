@@ -13,14 +13,8 @@ export const Game = styled.section<GameProps>`
     };
   gap: 2rem;
 `
-interface CardWrapperProps {
-  $isFlipped: boolean;
-}
 
-export const CardWrapper = styled.div<CardWrapperProps>`
-  background-color: ${({ $isFlipped }) =>
-    $isFlipped ? "var(--brand-color-paper)" : "var(--brand-color-purple)"
-  };
+export const CardWrapper = styled.div`
   width: 9rem;
   height: 9rem;
   border-radius: 12px;
@@ -29,54 +23,35 @@ export const CardWrapper = styled.div<CardWrapperProps>`
   display: flex;
   align-items: center;
   justify-content: center;
-
-  transform: ${({ $isFlipped }) =>
-    $isFlipped ? "rotateY(180deg)" : "rotateY(0deg)"};
-  transition: transform 0.6s ease;
-  transform-style: preserve-3d;
-  position: relative;
-
-  /* transform: ${({ $isFlipped }) =>
-    $isFlipped ? "rotateY(180deg)" : "rotateY(0)"};
-  transition: transform 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-
-  @-webkit-keyframes flip-vertical-right {
-    0% {
-      -webkit-transform: rotateY(0);
-              transform: rotateY(0);
-    }
-    100% {
-      -webkit-transform: rotateY(180deg);
-              transform: rotateY(180deg);
-    }
-  }
-  @keyframes flip-vertical-right {
-    0% {
-      -webkit-transform: rotateY(0);
-              transform: rotateY(0);
-    }
-    100% {
-      -webkit-transform: rotateY(180deg);
-              transform: rotateY(180deg);
-    }
-  } */
 `
 
-export const CardFace = styled.div`
+interface FlipperProps {
+  $isFlipped: boolean;
+}
+
+export const Flipper = styled.div<FlipperProps>`
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+  transform: ${({ $isFlipped }) => ($isFlipped ? "rotateY(180deg)" : "rotateY(0deg)")};
+`;
+
+export const Back = styled.div`
   position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
+  background-color: var(--brand-color-purple);
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 12px;
 `;
 
-/* Front Face */
-export const CardFront = styled(CardFace)`
-  background-color: var(--brand-color-purple);
-`;
-
-/* Back Face */
-export const CardBack = styled(CardFace)`
+export const Front = styled(Back)`
   background-color: var(--brand-color-paper);
   transform: rotateY(180deg);
 `;
@@ -86,10 +61,11 @@ export const CardText = styled.span`
   font-weight: 400;
   color: var(--white);
 `
-
+  
 export const CardImage = styled.img`
   width: 6rem;
 `
+
 export const Modal = styled.div`
   position: fixed;
   top: 0;

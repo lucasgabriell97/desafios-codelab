@@ -114,12 +114,18 @@ export const GameSection: React.FC<GameSectionProps> = ({
   return (
     <S.Game $pairs={cards.length / 2}>
       {cards.map((card, index) => (
-        <S.CardWrapper $isFlipped={card.isFlipped} key={card.id} onClick={() => handleCardClick(index)}>
-          {card.isFlipped || card.isMatched ? (
-            <S.CardImage src={card.src} />
-          ) : (
-            <S.CardText>Buuh!</S.CardText>
-          )}
+        <S.CardWrapper
+          key={card.id}
+          onClick={() => handleCardClick(index)}
+        >
+          <S.Flipper $isFlipped={card.isFlipped}>
+            <S.Back>
+              <S.CardText>Buuh!</S.CardText>
+            </S.Back>
+            <S.Front>
+              <S.CardImage src={card.src} />
+            </S.Front>
+          </S.Flipper>
         </S.CardWrapper>
       ))}
 
