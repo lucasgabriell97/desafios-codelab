@@ -12,6 +12,16 @@ export const Game = styled.section<GameProps>`
       : `repeat(${Math.ceil(Math.sqrt($pairs * 2))}, 1fr)`
     };
   gap: 2rem;
+
+  @media (width <= 1024px) {
+    grid-template-columns: ${({ $pairs }) => `repeat(${Math.ceil(Math.sqrt($pairs * 2))}, 1fr)`};
+    gap: 1.5rem
+  }
+
+  @media (width <= 768px) {
+    grid-template-columns: ${({ $pairs }) => `repeat(${Math.ceil(Math.sqrt($pairs * 1))}, 1fr)`};
+    gap: 1rem
+  }
 `
 
 export const CardWrapper = styled.div`
@@ -23,6 +33,16 @@ export const CardWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (width <= 1024px) {
+    width: 7.5rem;
+    height: 7.5rem;
+  }
+
+  @media (width <= 768px) {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
 `
 
 interface FlipperProps {
@@ -60,10 +80,26 @@ export const CardText = styled.span`
   font-size: 3.5rem;
   font-weight: 400;
   color: var(--white);
+
+  @media (width <= 1024px) {
+    font-size: 3rem;
+  }
+
+  @media (width <= 768px) {
+    font-size: 2.5rem;
+  }
 `
   
 export const CardImage = styled.img`
   width: 6rem;
+
+  @media (width <= 1024px) {
+    width: 5rem;
+  }
+
+  @media (width <= 768px) {
+    width: 4rem;
+  }
 `
 
 export const Modal = styled.div`
@@ -77,45 +113,12 @@ export const Modal = styled.div`
   align-items: center;
   justify-content: center;
   z-index: 1000;
-`;
 
-export const ModalContent = styled.div`
-  background-color: var(--dark);
-  border-radius: 1rem;
-
-  padding: 2.5rem 4.68rem;
-  position: relative;
-
-  h2 {
-    font-size: 4.5rem;
-    font-weight: 400;
-    text-align: center;
-    color: var(--white);
-    -webkit-text-stroke: 4px var(--brand-color-purple);
-
-    margin-bottom: 3rem;
+  @media (width <= 1024px) {
+    padding: 0 3.2rem;
   }
 
-  p {
-    font-size: 1.25rem;
-    font-weight: 500;
-    text-align: center;
-    color: var(--white);
-  }
-
-  button {
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    color: var(--brand-color-purple);
-    background-color: var(--brand-color-light-purple);
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-
-    &:hover {
-      background-color: var(--brand-color-purple);
-      color: var(--brand-color-paper);
-    }
+  @media (width <= 768px) {
+    padding: 0 2.4rem;
   }
 `;

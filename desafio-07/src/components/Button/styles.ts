@@ -23,4 +23,14 @@ export const Button = styled.button`
     background-color: transparent;
     border: 2px solid var(--brand-color-purple);
   }
+
+  @media (width <= 1024px) {
+    width: 100%;
+  }
+
+  @media (width <= 768px) {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.625rem;
+  }
 `

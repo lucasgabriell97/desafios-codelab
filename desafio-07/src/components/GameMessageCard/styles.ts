@@ -6,12 +6,26 @@ export const GameMessageCardContainer = styled.section`
 
   padding: 2.5rem 4.68rem;
   position: relative;
+
+  @media (width <= 1024px) {
+    padding: 2.5rem 3.5rem;
+  }
+
+  @media (width <= 768px) {
+    padding: 2.5rem 2.5rem;
+  }
   `
 
 export const SpiderWeb = styled.img`
   position: absolute;
   top: -25px;
   right: -25px;
+
+  @media (width <= 768px) {
+    width: 5rem;
+    top: -20px;
+    right: -20px;
+  }
 `
 
 export const Title = styled.h2`
@@ -22,6 +36,16 @@ export const Title = styled.h2`
   -webkit-text-stroke: 4px var(--brand-color-purple);
 
   margin-bottom: 3rem;
+
+  @media (width <= 1024px) {
+    margin-bottom: 2.5rem;
+  }
+
+  @media (width <= 768px) {
+    font-size: 3.7rem;
+    -webkit-text-stroke: 3px var(--brand-color-purple);
+    margin-bottom: 2rem;
+  }
 `
 
 export const Text = styled.p`
@@ -34,4 +58,13 @@ export const Text = styled.p`
   max-width: 500px;
 
   margin-bottom: 3rem;
+
+  @media (width <= 1024px) {
+    margin-bottom: 2.5rem;
+  }
+
+  @media (width <= 768px) {
+    font-size: 1.18rem;
+    margin-bottom: 2rem;
+  }
 `
