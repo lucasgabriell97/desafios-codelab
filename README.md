@@ -15,3 +15,4 @@
 ✅ | 05 | Studio Ghibli | <a href="https://studio-ghibli-4568bb.netlify.app/" target="_blank">Acessar</a> | React 
 ✅ | 06 | Mefolio | <a href="https://mefolio-478fde.netlify.app/" target="_blank">Acessar</a> | React
 ✅ | 07 | Memoween | <a href="https://memoween-game.netlify.app/" target="_blank">Acessar</a> | React, TypeScript, Styled Components
+⚠️ | 08 | La Pizza | Em breve | Em breve 
