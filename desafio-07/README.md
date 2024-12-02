@@ -2,8 +2,7 @@
   💻<br>Memoween
 </h1>
 
-![Design preview for the Mefolio](![image](https://github.com/user-attachments/assets/9485428e-92a4-4831-b077-25fcf39909fa)
-
+![Design preview for the Mefolio](https://github.com/user-attachments/assets/9485428e-92a4-4831-b077-25fcf39909fa)
 
 <h4 align="center"><a href="https://memoween-game.netlify.app/">Clique para visitar o projeto</a></h4>
 
