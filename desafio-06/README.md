@@ -12,4 +12,4 @@ Essa é a minha resolução do desafio 06 da comunidade CodeLab. O projeto se tr
 
 ## 🛠️ Tecnologias utilizadas
 
-- React;
+• React;
