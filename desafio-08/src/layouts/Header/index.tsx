@@ -1,5 +1,6 @@
 import React from "react";
 import * as S from "./styles";
+
 import Logo from "../../assets/images/logo.svg";
 
 export const Header: React.FC = () => {

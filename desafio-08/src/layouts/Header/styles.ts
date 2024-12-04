@@ -7,7 +7,6 @@ export const Header = styled.header`
   background-size: cover;
   background-position: center;
   height: 30.0rem;
-  width: 100%;
 
   display: flex;
   align-items: center;
