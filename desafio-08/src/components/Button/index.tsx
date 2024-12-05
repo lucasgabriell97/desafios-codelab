@@ -6,5 +6,5 @@ interface ButtonProps {
 }
 
 export const Button: React.FC<ButtonProps> = ({ label }) => {
-  return <S.Button>{label}</S.Button>;
+  return <S.Button label={label}>{label}</S.Button>;
 };

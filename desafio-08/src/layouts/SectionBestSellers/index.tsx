@@ -10,8 +10,8 @@ import { Card } from "../../components/Card";
 
 export const SectionBestSellers: React.FC = () => {
   return (
-    <S.Section>
-      <S.SectionTitle>Mais vendidas</S.SectionTitle>
+    <S.Section className="container">
+      <S.Title>Mais vendidas</S.Title>
       <S.CardsContainer>
         <Card
           pizzaImage={Pizza1}

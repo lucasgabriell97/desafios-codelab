@@ -6,5 +6,5 @@ interface MainProps {
 }
 
 export const Main: React.FC<MainProps> = ({ children }) => {
-  return <S.Main className="container">{children}</S.Main>;
+  return <S.Main>{children}</S.Main>;
 };

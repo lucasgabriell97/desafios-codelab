@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
-export const Button = styled.button`
+interface ButtonProps {
+  label: string;
+}
+
+export const Button = styled.button<ButtonProps>`
   background-color: var(--brand-color);
   border: none;
   border-radius: 2.5rem;
@@ -11,6 +15,16 @@ export const Button = styled.button`
 
   padding: 1.2rem 4rem;
 
-  position: absolute;
+  position: ${({label}) => 
+    label === "Comprar agora"
+      ? "absolute"
+      : "initial"
+  };
   bottom: -2rem;
+
+  transition: all .3s;
+
+  &:hover {
+    transform: scale(1.1)
+  }
 `

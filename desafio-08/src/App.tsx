@@ -3,6 +3,7 @@ import React from "react";
 import { Header } from "./layouts/Header";
 import { Main } from "./layouts/Main";
 import { SectionBestSellers } from "./layouts/SectionBestSellers";
+import { SectionAbout } from "./layouts/SectionAbout";
 
 export const App: React.FC = () => {
   return (
@@ -10,6 +11,7 @@ export const App: React.FC = () => {
       <Header />
       <Main>
         <SectionBestSellers />
+        <SectionAbout />
       </Main>
     </>
   );
