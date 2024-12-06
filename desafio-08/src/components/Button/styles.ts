@@ -1,10 +1,7 @@
 import styled from "styled-components";
 
-interface ButtonProps {
-  label: string;
-}
-
-export const Button = styled.button<ButtonProps>`
+export const Button = styled.button<{ label: string }>`
+  width: 20.8rem;
   background-color: var(--brand-color);
   border: none;
   border-radius: 2.5rem;

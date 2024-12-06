@@ -10,6 +10,10 @@ export const HeartIconWrapper = styled.div`
   position: absolute;
   top: -1.8rem;
   right: 3.7rem;
+
+  @media (width >= 1024px) {
+    right: 1.6rem;
+  }
 `
 
 export const HeartIcon = styled.img`

@@ -1,7 +1,6 @@
 import styled from "styled-components"
 
 export const CardContainer = styled.article`
-  /* width: 100%; */
   height: 30rem;
   background-color: #fefbf4;
   border-radius: 1.6rem;
@@ -14,6 +13,10 @@ export const CardContainer = styled.article`
   align-items: center;
 
   position: relative;
+
+  @media (width >= 1024px) {
+    padding: 0 3.2rem;
+  }
 `
 
 export const PizzaImage = styled.img`

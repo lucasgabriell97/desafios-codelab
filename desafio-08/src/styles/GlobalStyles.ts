@@ -32,10 +32,6 @@ export const GlobalStyles = createGlobalStyle`
 
   span,
   button {
-    display: block;
-  }
-
-  .container {
-    padding: 6.4rem 2.4rem;
+    display: inline-block;
   }
 `

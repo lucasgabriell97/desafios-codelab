@@ -10,7 +10,7 @@ import { Card } from "../../components/Card";
 
 export const SectionBestSellers: React.FC = () => {
   return (
-    <S.Section className="container">
+    <S.Section>
       <S.Title>Mais vendidas</S.Title>
       <S.CardsContainer>
         <Card
