@@ -14,7 +14,7 @@ export const PetFood: React.FC<PetFoodProps> = ({
   foodDescription,
 }) => {
   return (
-    <div className="flex flex-col justify-center max-w-96 mx-auto">
+    <div className="flex flex-col justify-center lg:justify-end max-w-96 lg:w-96 mx-auto">
       <div className="flex justify-center">
         <img className="mb-10" src={foodImage} alt="Imagem de comida de pet" />
       </div>
