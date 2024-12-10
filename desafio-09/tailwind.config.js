@@ -12,6 +12,7 @@ export default {
       'pink': '#ffc6da',
       'yellow': '#fff1a8',
       'black': '#000000',
+      'gray-100': '#f3f6f7',
       'navy-blue': '#124c5f',
       'white': '#ffffff',
     },
