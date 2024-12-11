@@ -7,7 +7,7 @@ import { Button } from "../../components/Button";
 export const HelpSection: React.FC = () => {
   return (
     <section className="py-20 lg:py-32 px-8">
-      <div className="lg:flex lg:items-center lg:gap-24 max-w-6xl mx-auto">
+      <div className="lg:flex lg:items-center lg:gap-2 max-w-6xl mx-auto">
         <div className="flex flex-col items-center lg:items-start">
           <img className="mb-16 md:mb-20 lg:mb-28" src={Logo} alt="Logo HelpDog" />
           <h1 className="font-pangolin text-3xl md:text-4xl lg:text-5xl text-center lg:text-start max-w-80 md:max-w-96 lg:max-w-3xl mb-4 md:mb-6">

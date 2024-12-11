@@ -5,8 +5,8 @@ import { Button } from "../../components/Button";
 
 export const StoriesSection: React.FC = () => {
   return (
-    <section className="bg-gray-100 pt-3 pb-20 px-8">
-      <div className="flex flex-col lg:flex-row lg:items-center gap-3 max-w-6xl mx-auto">
+    <section className="bg-gray-100 py-20 px-8">
+      <div className="flex flex-col lg:flex-row lg:items-center gap-14 max-w-6xl mx-auto">
         <div className="flex justify-center">
           <img src={DogImage} alt="Imagem de um cachorro" />
         </div>
