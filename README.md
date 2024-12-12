@@ -16,4 +16,5 @@
 ✅ | 06 | Mefolio | <a href="https://mefolio-478fde.netlify.app/" target="_blank">Acessar</a> | React
 ✅ | 07 | Memoween | <a href="https://memoween-game.netlify.app/" target="_blank">Acessar</a> | React, TypeScript, Styled Components
 ✅ | 08 | La Pizza | <a href="https://lapizzaitalian.netlify.app/" target="_blank">Acessar</a> | React, TypeScript, Styled Components 
-⚠️ | 09 | HelpDog | Em breve | Em breve 
+✅ | 09 | HelpDog | <a href="https://helpdog-page.netlify.app/" target="_blank">Acessar</a> | React, TypeScript, Tailwind CSS 
+⚠️ | 10 | Feliz Natal | Em breve | Em breve 
