@@ -4,11 +4,13 @@ export default {
   theme: {
     screens: {
       sm: "375px",
-      md: "744px",
+      md: "768px",
       lg: "1216px",
     },
     colors: {
-      'brand-color': '#cd3c32',
+      'brand-color-red': '#cd3c32',
+      'brand-color-pink': '#ffe9e8',
+      'icon-color': '#ffd5d3',
       'dark': '#121214',
       'white': '#ffffff',
     },
