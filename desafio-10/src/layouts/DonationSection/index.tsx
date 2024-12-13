@@ -15,8 +15,8 @@ export const DonationSection: React.FC = () => {
           />
         </div>
         <div className="flex flex-col items-center">
-          <h2 className="title max-w-sm">Conectando generosidade ao redor do mundo</h2>
-          <p className="text-lg font-normal text-center text-dark mb-10 max-w-md">
+          <h2 className="title max-w-sm md:max-w-xl">Conectando generosidade ao redor do mundo</h2>
+          <p className="text-lg md:text-2xl font-normal text-center text-dark mb-10 max-w-md md:max-w-xl">
             Celebre a magia do Natal de uma maneira especial! Descubra a
             plataforma que permite a doação de presentes significativos para
             aqueles que mais precisam. Faça parte do movimento e compartilhe o

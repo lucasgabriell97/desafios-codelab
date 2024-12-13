@@ -16,7 +16,7 @@ export const Footer: React.FC = () => {
         <div>
           <img src={Logo} alt="Logo de Feliz Natal" />
         </div>
-        <div className="flex flex-wrap justify-center gap-7">
+        <div className="flex flex-wrap justify-center gap-9">
           <MediaIcon icon={TwitterLogo} />
           <MediaIcon icon={WhatsappLogo} />
           <MediaIcon icon={InstagramLogo} />
