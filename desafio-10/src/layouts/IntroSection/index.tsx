@@ -11,12 +11,12 @@ export const IntroSection: React.FC = () => {
       <div className="py-24 px-6 flex flex-col items-center gap-16">
         <div className="flex flex-col items-center">
           <img className="mb-8" src={Logo} alt="Logo de Feliz Natal" />
-          <h1 className="title">
+          <h1 className="title max-w-sm">
             Uma{" "}
             <span className="text-brand-color-red">plataforma de doação</span>{" "}
             para espalhar alegria
           </h1>
-          <p className="text-lg font-normal text-center text-dark mb-10">
+          <p className="text-lg font-normal text-center text-dark mb-10 max-w-sm">
             Nessas festas de fim de ano mande um presente para a pessoa amada e
             compartilhe a alegria do Natal.
           </p>
