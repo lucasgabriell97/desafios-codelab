@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .title {
-  @apply text-3xl md:text-4xl font-semibold text-center text-dark mb-6;
+  @apply text-3xl md:text-4xl font-semibold text-center lg:text-start text-dark mb-6;
 }

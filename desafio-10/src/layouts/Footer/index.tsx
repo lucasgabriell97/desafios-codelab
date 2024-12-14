@@ -11,8 +11,8 @@ import { MediaIcon } from "../../components/MediaIcon";
 
 export const Footer: React.FC = () => {
   return (
-    <footer className="bg-brand-color-pink">
-      <div className="py-12 px-6 flex flex-col items-center gap-8">
+    <footer className="bg-brand-color-pink py-12 lg:py-5 px-6">
+      <div className="flex flex-col lg:flex-row items-center lg:justify-between gap-8 lg:max-w-6xl lg:mx-auto">
         <div>
           <img src={Logo} alt="Logo de Feliz Natal" />
         </div>

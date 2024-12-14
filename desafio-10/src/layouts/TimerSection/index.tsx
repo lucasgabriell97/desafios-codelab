@@ -4,8 +4,8 @@ import IllustrativeChristmasImage from "../../assets/images/illustration-1.svg";
 
 export const TimerSection: React.FC = () => {
   return (
-    <section className="border-b-2 border-b-brand-color-pink">
-      <div className="py-20 px-6 flex flex-col items-center">
+    <section className="border-b-2 border-b-brand-color-pink py-20 px-6">
+      <div className="flex flex-col items-center">
         <h2 className="title">Tempo limitado</h2>
         <p className="text-lg md:text-xl font-normal text-center text-dark mb-6 md:mb-10 max-w-md md:max-w-lg">
           Nessas festas de fim de ano mande um presente para a pessoa amada e
