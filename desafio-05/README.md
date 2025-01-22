@@ -12,7 +12,7 @@
 
 Essa é a minha resolução do desafio 05 da comunidade CodeLab. O projeto se refere a uma pequena apresentação do filme A Viagem de Chihiro. 🚀
 
-## 🧑🏽‍💻 Interações | Funcionalidades
+## 🧑🏽‍💻 Funcionalidades
 
 ☑️ Visualizar um layout adequado ao seu dispositivo. 
 ☑️ Estado de hover nos botões. 
