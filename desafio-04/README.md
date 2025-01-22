@@ -1,15 +1,22 @@
 <h1 align="center">
-  💻<br>Login
+  🔑<br>Login
 </h1>
 
-![Design preview for the Login](https://github.com/user-attachments/assets/73b11061-b263-4630-ae31-01ab60412673)
+<div align="center">
+  <img src="./src/assets/design/design-preview.png" alt="Imagem do desafio Login" />
+</div>
 
 <h4 align="center"><a href="https://login-drab-ten.vercel.app/">Clique para visitar o projeto</a></h4>
 
 ## 📚 Sobre o projeto
 
-Essa é a minha resolução do desafio 04 da comunidade CodeLab. O projeto se trata de uma tela de login. 🚀
+Essa é a minha resolução do desafio 04 da comunidade CodeLab. O projeto se refere a uma tela de login. 🚀
+
+## 🧑🏽‍💻 Interações | Funcionalidades
+
+☑️ Visualizar um layout adequado ao seu dispositivo. 
+☑️ Estado de hover nos botões. 
 
 ## 🛠️ Tecnologias utilizadas
 
-- React;
+- ReactJS

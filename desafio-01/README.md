@@ -2,7 +2,9 @@
   💻<br>Blog
 </h1>
 
-![Design preview for the Blog](https://github.com/user-attachments/assets/fdc26951-4371-4454-a854-52a143bc5efc)
+<div align="center">
+  <img src="./design/design-preview.png" alt="Imagem do desafio Blog" />
+</div>
 
 <h4 align="center"><a href="https://blog-codelab.netlify.app/">Clique para visitar o projeto</a></h4>
 
@@ -10,8 +12,14 @@
 
 Essa é a minha resolução do desafio 01 da comunidade CodeLab. O projeto se trata de um blog com notícias sobre tecnologias. 🚀
 
+## 🧑🏽‍💻 Interações | Funcionalidades
+
+☑️ Visualizar um layout adequado ao seu dispositivo.
+☑️ Marcar notícia como favorita.
+
 ## 🛠️ Tecnologias utilizadas
 
-- HTML;
-- CSS;
-- JavaScript;
+- HTML
+- CSS
+- JavaScript
+- Scroll Reveal
