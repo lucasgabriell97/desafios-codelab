@@ -12,7 +12,7 @@
 
 Essa é a minha resolução do desafio 09 da comunidade CodeLab. O projeto se trata de uma pequena landing page para doações de alimentos para cães de rua. 🚀
 
-## 🧑🏽‍💻 Interações | Funcionalidades
+## 🧑🏽‍💻 Funcionalidades
 
 ☑️ Visualizar um layout adequado ao seu dispositivo. 
 
