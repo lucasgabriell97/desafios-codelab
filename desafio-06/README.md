@@ -12,9 +12,9 @@
 
 Essa é a minha resolução do desafio 06 da comunidade CodeLab. O projeto se refere a uma landing page de um portifólio com base nas informações do professor IuriCode. 🚀
 
-## 🧑🏽‍💻 Interações | Funcionalidades
+## 🧑🏽‍💻 Funcionalidades
 
-☑️ Visualizar um layout adequado ao seu dispositivo. 
+☑️ Visualizar um layout adequado ao seu dispositivo.<br> 
 ☑️ Estado de hover nos links e botões.
 
 ## 🛠️ Tecnologias utilizadas
