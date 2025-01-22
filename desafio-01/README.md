@@ -12,9 +12,9 @@
 
 Essa é a minha resolução do desafio 01 da comunidade CodeLab. O projeto se trata de um blog com notícias sobre tecnologias. 🚀
 
-## 🧑🏽‍💻 Interações | Funcionalidades
+## 🧑🏽‍💻 Funcionalidades
 
-☑️ Visualizar um layout adequado ao seu dispositivo.
+☑️ Visualizar um layout adequado ao seu dispositivo.<br>
 ☑️ Marcar notícia como favorita.
 
 ## 🛠️ Tecnologias utilizadas
