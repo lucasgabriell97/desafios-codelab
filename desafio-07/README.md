@@ -12,12 +12,12 @@
 
 Essa é a minha resolução do desafio 07 da comunidade CodeLab. O projeto se trata de um jogo da memória com o tema de Halloween, onde o usuário pode escolher entre três níveis para jogar. 🚀
 
-## 🧑🏽‍💻 Interações | Funcionalidades
+## 🧑🏽‍💻 Funcionalidades
 
-☑️ Visualizar um layout adequado ao seu dispositivo. 
-☑️ Estado de hover nos links e botões.
-☑️ Manter as cartas viradas caso forme o par.
-☑️ Exibir modal com mensagem de jogo concluído ao completar as cartas.
+☑️ Visualizar um layout adequado ao seu dispositivo.<br>
+☑️ Estado de hover nos links e botões.<br>
+☑️ Manter as cartas viradas caso forme o par.<br>
+☑️ Exibir modal com mensagem de jogo concluído ao completar as cartas.<br>
 ☑️ Escolher entre jogar novamente ou mudar a dificuldade do jogo.
 
 ## 🛠️ Tecnologias utilizadas
