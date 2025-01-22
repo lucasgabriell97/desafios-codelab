@@ -12,7 +12,7 @@
 
 Essa é a minha resolução do desafio 02 da comunidade CodeLab. O projeto se refere a uma loja de venda de tênis da marca Jordan. 🚀
 
-## 🧑🏽‍💻 Interações | Funcionalidades
+## 🧑🏽‍💻 Funcionalidades
 
 ☑️ Visualizar um layout adequado ao seu dispositivo. 
 
