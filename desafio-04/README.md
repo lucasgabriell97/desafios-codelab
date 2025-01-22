@@ -12,9 +12,9 @@
 
 Essa é a minha resolução do desafio 04 da comunidade CodeLab. O projeto se refere a uma tela de login. 🚀
 
-## 🧑🏽‍💻 Interações | Funcionalidades
+## 🧑🏽‍💻 Funcionalidades
 
-☑️ Visualizar um layout adequado ao seu dispositivo. 
+☑️ Visualizar um layout adequado ao seu dispositivo.<br>
 ☑️ Estado de hover nos botões. 
 
 ## 🛠️ Tecnologias utilizadas
