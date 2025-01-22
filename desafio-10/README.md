@@ -14,8 +14,8 @@ Essa é a minha resolução do desafio 10 da comunidade CodeLab. O projeto se tr
 
 ## 🧑🏽‍💻 Interações | Funcionalidades
 
-☑️ Visualizar um layout adequado ao seu dispositivo. 
-☑️ Estado de hover nos botões. 
+☑️ Visualizar um layout adequado ao seu dispositivo.<br>
+☑️ Estado de hover nos botões.<br>
 ☑️ Exibir os dias restantes para o natal em tempo real. 
 
 ## 🛠️ Tecnologias utilizadas
