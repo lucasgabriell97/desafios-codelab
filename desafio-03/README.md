@@ -12,7 +12,7 @@
 
 Essa é a minha resolução do desafio 03 da comunidade CodeLab. O projeto se refere a uma landing page com artigos sobre tecnologia. 🚀
 
-## 🧑🏽‍💻 Interações | Funcionalidades
+## 🧑🏽‍💻 Funcionalidades
 
 ☑️ Visualizar um layout adequado ao seu dispositivo. 
 
