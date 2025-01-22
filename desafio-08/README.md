@@ -12,9 +12,9 @@
 
 Essa é a minha resolução do desafio 08 da comunidade CodeLab. O projeto se refere a uma landing page de uma pazzaria, onde fala um pouco sobre a mesma e exibe as pizzas mais vendidas. 🚀
 
-## 🧑🏽‍💻 Interações | Funcionalidades
+## 🧑🏽‍💻 Funcionalidades
 
-☑️ Visualizar um layout adequado ao seu dispositivo. 
+☑️ Visualizar um layout adequado ao seu dispositivo.<br>
 ☑️ Estado de hover nos botões.
 
 ## 🛠️ Tecnologias utilizadas
